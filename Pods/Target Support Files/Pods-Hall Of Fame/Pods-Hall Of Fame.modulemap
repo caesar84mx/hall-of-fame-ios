@@ -1,0 +1,6 @@
+framework module Pods_Hall_Of_Fame {
+  umbrella header "Pods-Hall Of Fame-umbrella.h"
+
+  export *
+  module * { export * }
+}
