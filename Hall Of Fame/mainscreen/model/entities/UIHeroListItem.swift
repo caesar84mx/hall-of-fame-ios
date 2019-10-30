@@ -25,9 +25,9 @@ struct UIHeroListItem {
         self.init(
             name: heroRaw.name,
             team: heroRaw.team,
-            realName: heroRaw.realName,
-            publisherAndYear: "Published by \(heroRaw.firstAppearance) in \(heroRaw.publisher)",
-            imageUrl: heroRaw.imageUrl
+            realName: heroRaw.realname,
+            publisherAndYear: "Published by \(heroRaw.firstappearance) in \(heroRaw.publisher)",
+            imageUrl: heroRaw.imageurl
         )
     }
 }

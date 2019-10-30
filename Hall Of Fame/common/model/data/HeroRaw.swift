@@ -5,14 +5,15 @@
 //  Created by Maxim Dymnov on 10/15/19.
 //  Copyright © 2019 Maxim Dymnov. All rights reserved.
 //
+import Foundation
 
-struct HeroRaw {
+struct HeroRaw: Codable {
     let name: String
-    let realName: String
+    let realname: String
     let team: String
-    let firstAppearance: Int
-    let createdBy: String
+    let firstappearance: String
+    let createdby: String
     let publisher: String
-    let imageUrl: String
+    let imageurl: String
     let bio: String
 }

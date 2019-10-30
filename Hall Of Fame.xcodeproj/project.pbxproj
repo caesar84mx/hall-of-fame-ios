@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0852CD312368B8F000A3E884 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852CD302368B8EF00A3E884 /* NetworkConstants.swift */; };
+		0852CD352368DBB600A3E884 /* HeroesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852CD342368DBB600A3E884 /* HeroesRepository.swift */; };
+		0852CD372368DC9700A3E884 /* HeroesRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852CD362368DC9700A3E884 /* HeroesRepositoryImpl.swift */; };
 		085F29712356885C00519D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F29702356885C00519D4B /* AppDelegate.swift */; };
 		085F29732356885C00519D4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F29722356885C00519D4B /* SceneDelegate.swift */; };
 		085F29752356885C00519D4B /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085F29742356885C00519D4B /* MainScreenController.swift */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		02F27D412D278FFE3E522B05 /* Pods-Hall Of FameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hall Of FameTests.release.xcconfig"; path = "Target Support Files/Pods-Hall Of FameTests/Pods-Hall Of FameTests.release.xcconfig"; sourceTree = "<group>"; };
+		0852CD302368B8EF00A3E884 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		0852CD342368DBB600A3E884 /* HeroesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepository.swift; sourceTree = "<group>"; };
+		0852CD362368DC9700A3E884 /* HeroesRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRepositoryImpl.swift; sourceTree = "<group>"; };
 		085F296D2356885C00519D4B /* Hall Of Fame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hall Of Fame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		085F29702356885C00519D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
 		085F29722356885C00519D4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../SceneDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +218,8 @@
 		085F29A62356914600519D4B /* repository */ = {
 			isa = PBXGroup;
 			children = (
+				0852CD342368DBB600A3E884 /* HeroesRepository.swift */,
+				0852CD362368DC9700A3E884 /* HeroesRepositoryImpl.swift */,
 			);
 			path = repository;
 			sourceTree = "<group>";
@@ -278,6 +286,7 @@
 		085F29C323579BC300519D4B /* network */ = {
 			isa = PBXGroup;
 			children = (
+				0852CD302368B8EF00A3E884 /* NetworkConstants.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -477,11 +486,14 @@
 				085F297B2356885C00519D4B /* Hall_Of_Fame.xcdatamodeld in Sources */,
 				085F29B92356BA7E00519D4B /* MainScreenPresenter.swift in Sources */,
 				085F299E23568A3F00519D4B /* BaseView.swift in Sources */,
+				0852CD352368DBB600A3E884 /* HeroesRepository.swift in Sources */,
 				085F29B32356A8CE00519D4B /* HeroesTableViewHolder.swift in Sources */,
 				085F29B023569FC400519D4B /* UICardView.swift in Sources */,
 				085F29BE2356BCE700519D4B /* MainScreenView.swift in Sources */,
 				085F29A92356919200519D4B /* UIHeroListItem.swift in Sources */,
 				085F29BC2356BCB000519D4B /* MainScreenPresenterImpl.swift in Sources */,
+				0852CD312368B8F000A3E884 /* NetworkConstants.swift in Sources */,
+				0852CD372368DC9700A3E884 /* HeroesRepositoryImpl.swift in Sources */,
 				085F29732356885C00519D4B /* SceneDelegate.swift in Sources */,
 				085F29C2235786DC00519D4B /* Extensions.swift in Sources */,
 			);

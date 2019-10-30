@@ -5,6 +5,7 @@ target 'Hall Of Fame' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'moa'
+  pod 'Alamofire'
 
   # Pods for Hall Of Fame
 

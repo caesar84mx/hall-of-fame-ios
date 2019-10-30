@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Hall Of Fame/Pods-Hall Of Fame-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/moa/moa.framework

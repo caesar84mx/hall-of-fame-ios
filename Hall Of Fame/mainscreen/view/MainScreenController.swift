@@ -69,7 +69,7 @@ extension MainScreenController: MainScreenView {
     }
 
     func showEmptyTableText() {
-        // MARK: implement method
+        print("No data")
     }
 
     func hideEmptyTableText() {
@@ -80,4 +80,3 @@ extension MainScreenController: MainScreenView {
         // MARK: implement method
     }
 }
-
